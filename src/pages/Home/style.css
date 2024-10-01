@@ -1,0 +1,17 @@
+.mode-selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+.mode-selection__title {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.mode-selection__btn-wrapper {
+    display: flex;
+    gap: 30px;
+}

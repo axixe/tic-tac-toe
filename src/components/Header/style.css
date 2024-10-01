@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header__title {
+    margin: 20px 0 0 0;
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.header__subtitle {
+    font-weight: 300;
+}
