@@ -27,9 +27,9 @@ export default function Home() {
                     <Link to='/singleplayer'>
                         <Button btnName='SINGLEPLAYER' />
                     </Link>
-                    <Link to='/multiplayer'>
+                    {/* <Link to='/multiplayer'>
                         <Button btnName='MULTIPLAYER' />
-                    </Link>
+                    </Link> */}
                 </div>
             </section>
         </>
