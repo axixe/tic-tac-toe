@@ -83,10 +83,12 @@ export default function SinglePlayer() {
         <>
             <Header />
             <GameField status={updateGameStatus} overtime={gameStatus.overtime} reset={gameStatus.reset} />
-            <Button click={handleResetClick} btnName='PLAY AGAIN' pageClass='singleplayer-restart' />
+            <Button click={handleResetClick} btnName='PLAY AGAIN' pageClass='singleplayer-restart' disabled={!gameStatus.turn} />
             <Link to='/'>
                 <button className='to-hub-button'>EXIT TO HUB</button>
             </Link>
+
+            {/* <button>hello</button> */}
         </>
     )
 }

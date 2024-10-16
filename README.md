@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Tic-Tac-Toe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[View the project in action](https://axixe.github.io/tic-tac-toe)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+Tic-Tac-Toe is a classic two-player game where each player takes turns placing their marks on a 3x3 grid. The objective of the game is to get three of your marks in a row, column, or diagonal.
 
-### `npm start`
+## Technologies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project uses the following technologies:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **React**: A library for building user interfaces.
+- **React Router**: A library for routing in a React application, allowing the creation of single-page applications with multiple views.
+- **JavaScript (ES6)**: Modern JavaScript used to write game logic and interact with components.
+- **CSS**: Styling the interface using standard CSS. BEM methodology might be used for class organization.
+- **React Hooks**: Utilizing hooks like `useState` and `useEffect` for managing state and side effects in components.
+- **PropTypes**: For prop validation, helping to avoid errors when passing data to components.
+- **Webpack**: For bundling the project, ensuring a modular approach, and optimizing resources.
+- **Git**: For version control and code management.
+- **GitHub Pages**: For hosting and deploying the project.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To set up for local development, follow these steps:
 
-### `npm run build`
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your_username/tic-tac-toe.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
+    ```bash
+    cd tic-tac-toe
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the project:
+    ```bash
+    npm start
+    ```
 
-### `npm run eject`
+Now you can open your browser and go to [http://localhost:3000](http://localhost:3000) to see the application in action.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Usage
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Start the game by selecting a cell on the grid.
+- The first player, playing as "X", goes first, followed by the player "O".
+- The game continues until one player gets three marks in a row or all cells are filled.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contribution
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+If you want to contribute to the project, you can:
 
-## Learn More
+1. Clone the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature/your_feature    
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Make your changes and commit them:
+    ```bash
+    git commit -m "Added a new feature" 
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Push the changes to the remote repository:
+    ```bash
+    git push origin feature/your_feature    
+    ```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Create a pull request.
