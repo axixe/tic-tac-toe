@@ -14,11 +14,9 @@ export default function App() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/singleplayer' element={<SinglePlayer />} />
-                    <Route path='/multiplayer' />
+                    {/* <Route path='/multiplayer' /> */}
                     <Route path='*' />
                 </Routes>
-
-                {/* <Input label='your name' type='text' /> */}
 
             </Router>
         </HeaderProvider>
