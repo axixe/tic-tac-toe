@@ -4,7 +4,7 @@ import { HeaderProvider } from "../../context/HeaderContext";
 
 import Home from "../../pages/Home";
 import SinglePlayer from "../../pages/SinglePlayer";
-import Input from "../Input";
+// import Input from "../Input";
 
 export default function App() {
     return (
