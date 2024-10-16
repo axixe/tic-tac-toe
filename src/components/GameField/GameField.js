@@ -64,7 +64,6 @@ export default class GameField extends Component {
             botMove = findImmediateWin(board, 'ex');
         }
         if (botMove === null) {
-            
             const minimax = (newBoard, isMaximizing) => {
                 const score = evaluate(newBoard);
                 if (score === 10) return score;
@@ -114,6 +113,15 @@ export default class GameField extends Component {
             };
     
             botMove = findBestMove(board);
+
+            const randomFactor = Math.random();
+            if (randomFactor < 1) {
+                const availableMoves = board
+                    .map((value, index) => (value === 'free' ? index : null))
+                    .filter(index => index !== null);
+    
+                botMove = availableMoves[Math.floor(Math.random() * availableMoves.length)];
+            }
         }
     
         if (botMove !== null) {
@@ -128,7 +136,8 @@ export default class GameField extends Component {
                 this.checkGameResult();
             });
         }
-    }
+    };
+    
       
 
     checkGameResult = () => {

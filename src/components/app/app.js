@@ -9,7 +9,7 @@ import Input from "../Input";
 export default function App() {
     return (
         <HeaderProvider>
-            <Router>
+            <Router basename='tic-tac-toe'>
 
                 <Routes>
                     <Route path='/' element={<Home />} />
