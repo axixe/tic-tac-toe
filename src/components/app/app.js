@@ -18,7 +18,7 @@ export default function App() {
                     <Route path='*' />
                 </Routes>
 
-                <Input label='your name' type='text' />
+                {/* <Input label='your name' type='text' /> */}
 
             </Router>
         </HeaderProvider>
